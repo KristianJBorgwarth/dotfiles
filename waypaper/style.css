@@ -1,0 +1,133 @@
+/* =========================
+   DRACULA – FULLY OPAQUE
+   =========================
+   bg        #282a36
+   current   #44475a
+   fg        #f8f8f2
+   comment   #6272a4
+   cyan      #8be9fd
+   green     #50fa7b
+   orange    #ffb86c
+   pink      #ff79c6
+   purple    #bd93f9
+   red       #ff5555
+   yellow    #f1fa8c
+*/
+
+/* Window */
+window {
+  background-color: #282a36;
+  color: #f8f8f2;
+}
+
+/* Main containers */
+.background,
+.view,
+.content,
+.frame {
+  background-color: #282a36;
+}
+
+/* Buttons */
+button {
+  background-image: none;
+  box-shadow: none;
+  background-color: #44475a;
+  color: #f8f8f2;
+  border: 1px solid #6272a4;
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+
+button:hover {
+  background-image: none;
+  box-shadow: none;
+  background-color: #6272a4;
+  border-color: #bd93f9;
+}
+
+button:active {
+  background-color: #bd93f9;
+  color: #282a36;
+  border-color: #bd93f9;
+}
+
+button:disabled {
+  opacity: 0.55;
+}
+
+/* Kill GTK icon hover effects */
+button:hover > image {
+  -gtk-icon-shadow: none;
+  -gtk-icon-effect: none;
+}
+
+/* Highlighted / selected buttons */
+.highlighted-button {
+  background-image: none;
+  box-shadow: none;
+  background-color: #bd93f9;
+  color: #282a36;
+  border-color: #bd93f9;
+}
+
+.highlighted-button > image,
+.highlighted-button:hover > image {
+  -gtk-icon-effect: highlight;
+}
+
+/* Search / text entries */
+entry {
+  background-color: #44475a;
+  color: #f8f8f2;
+  border: 1px solid #6272a4;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+entry:focus {
+  border-color: #8be9fd;
+}
+
+/* Dropdowns / popovers */
+combobox,
+dropdown,
+popover {
+  background-color: #282a36;
+  color: #f8f8f2;
+  border: 1px solid #6272a4;
+  box-shadow: none;
+}
+
+popover > contents {
+  background-color: #282a36;
+}
+
+/* Thumbnail grid / list selection */
+row:selected,
+.view:selected,
+flowboxchild:selected,
+list row:selected {
+  background-color: #ff79c6;
+  color: #282a36;
+}
+
+row:hover,
+flowboxchild:hover {
+  background-color: #44475a;
+}
+
+/* Scrollbars */
+scrollbar trough {
+  background-color: #44475a;
+  border-radius: 999px;
+}
+
+scrollbar slider {
+  background-color: #6272a4;
+  border-radius: 999px;
+}
+
+scrollbar slider:hover {
+  background-color: #bd93f9;
+}
