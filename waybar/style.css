@@ -1,6 +1,5 @@
 * {
-  font-family:
-    "Fira Sans Semibold", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Inter", "JetBrainsMono Nerd Font", "JetBrains Mono", sans-serif;
   font-size: 15px;
   transition: background-color 0.3s ease-out;
 }
@@ -27,7 +26,6 @@ window#waybar {
 }
 
 #clock,
-#battery,
 #cpu,
 #memory,
 #disk,
@@ -49,7 +47,6 @@ window#waybar {
 }
 
 #clock:hover,
-#battery:hover,
 #cpu:hover,
 #memory:hover,
 #disk:hover,
@@ -78,7 +75,7 @@ window#waybar {
   font-size: 13pt;
   color: #c0caf5;
   border: none;
-  border-radius: 15px;
+  border-radius: 24px;
 }
 
 #workspaces button.active {
