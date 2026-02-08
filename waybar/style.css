@@ -9,9 +9,6 @@ window#waybar {
   background: rgba(9, 9, 13, 1);
   min-height: 16px;
   color: #c0caf5;
-  font-family:
-    SpaceMono Nerd Font,
-    feather;
   transition: background-color 0.5s;
 }
 
