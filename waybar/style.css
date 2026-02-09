@@ -4,7 +4,7 @@
   transition: background-color 0.3s ease-out;
 }
 window#waybar {
-  background: rgba(9, 9, 13, 1);
+  background: rgba(9, 9, 13, 0.9);
   color: #c0caf5;
 }
 
