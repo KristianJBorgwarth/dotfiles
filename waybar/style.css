@@ -3,12 +3,9 @@
   font-size: 15px;
   transition: background-color 0.3s ease-out;
 }
-
 window#waybar {
   background: rgba(9, 9, 13, 1);
-  min-height: 16px;
   color: #c0caf5;
-  transition: background-color 0.5s;
 }
 
 .modules-left,
@@ -68,15 +65,14 @@ window#waybar {
 
 #workspaces button {
   background: transparent;
-  font-family:
-    SpaceMono Nerd Font,
-    feather;
-  font-weight: 900;
-  font-size: 13pt;
+  font-weight: 600;
+  font-size: 9px;
+  padding: 2px 6px;
+  margin: 0 2px;
   color: #c0caf5;
   border: none;
-  border-radius: 24px;
 }
+
 
 #workspaces button.active {
   background-image: linear-gradient(
@@ -86,6 +82,10 @@ window#waybar {
     rgba(94, 23, 235, 0.93)
   );
   color: #ffffff;
+}
+
+#workspaces button:not(.active):not(.empty) {
+  color: #9b5cff;
 }
 
 #workspaces button:hover {
