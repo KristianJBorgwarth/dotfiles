@@ -2,7 +2,6 @@
   "custom/arch": {
     "format": "󰣇",
     "tooltip": true,
-    "tooltip-format": "btw"
   },
   "hyprland/workspaces": {
     "disable-scroll": true,
@@ -51,7 +50,7 @@
     "tooltip": true
   },
   "clock": {
-    "format": "{:%H:%M | %e %B} ",
+    "format": "{:%H:%M} ",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format-alt": "{:%Y-%m-%d}"
   }
