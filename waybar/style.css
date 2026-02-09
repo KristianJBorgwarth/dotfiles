@@ -85,7 +85,7 @@ window#waybar {
 }
 
 #workspaces button:not(.active):not(.empty) {
-  color: #9b5cff;
+  color: #ff4fd8;
 }
 
 #workspaces button:hover {
