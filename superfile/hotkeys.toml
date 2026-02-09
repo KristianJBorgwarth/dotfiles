@@ -16,7 +16,7 @@
 #-- Basic Actions
 confirm = ['enter', 'right', 'l']
 cd_quit = ['Q', '']
-quit = ['q', 'esc']
+quit = ['q']
 
 #-- Navigation
 list_down = ['down', 'j']
@@ -86,7 +86,7 @@ cancel_typing = ['ctrl+c', 'esc']
 # hotkeys.
 
 #-- Normal Mode Actions
-parent_directory = ['h', 'left', 'backspace']
+parent_directory = ['h', 'left', 'esc']
 search_bar = ['/', '']
 
 #-- Selection Mode Actions
