@@ -51,9 +51,8 @@ if [ -d "$FNM_PATH" ]; then
 fi
 
 # Aliases
-alias zhd='nvim ~/.zshrc'
 alias zhr='source ~/.zshrc'
-alias zhc='code ~/.zshrc'
+alias pacu='sudo pacman -Syu'
 alias lg='lazygit'
 alias ls='ls --color=auto'
 alias zhp='zsh -i -c "PROFPATH=1 zsh -i -c exit"'
@@ -61,5 +60,4 @@ alias dr='dunstctl reload 2>/dev/null || { pkill -x dunst; dunst --config "$HOME
 alias autorandr='PYTHONWARNINGS=ignore::SyntaxWarning /bin/autorandr'
 # Print profiling report only when enabled 
 [[ -n $PROFPATH ]] && zprof
-export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
