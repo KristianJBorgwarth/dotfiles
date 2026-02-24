@@ -5,6 +5,7 @@
 }
 window#waybar {
   background: rgba(9, 9, 13, 0.9);
+  border-radius: 5px;
   color: #c0caf5;
 }
 
@@ -62,11 +63,13 @@ window#waybar {
   background: rgba(26, 27, 38, 0.9);
 }
 
+#workspaces {
+  padding-left: 5px;
+}
+
 #workspaces button {
   background: transparent;
   font-weight: 600;
-  margin: 1 0px;
-  padding: 3px 6px;
   font-size: 9px;
   color: #c0caf5;
 }

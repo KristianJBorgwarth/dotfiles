@@ -1,6 +1,9 @@
 {
   "layer": "top", 
   "position": "top", 
+  "margin-top": 3,
+  "margin-left": 5,
+  "margin-right": 5,
   "output": "DP-2",
   "modules-left": ["custom/arch", "hyprland/workspaces", "hyprland/window"],
   "modules-center": ["clock"],
