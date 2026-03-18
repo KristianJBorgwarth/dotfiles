@@ -30,6 +30,7 @@ bindkey '^F' complete-word
 # PATH
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+export PATH="/opt/brew/bin:$PATH"
 
 # oh-my-posh
 export OMP_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/oh-my-posh"

@@ -9,8 +9,8 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": "<#527a63>❯</><#6b9a96>❯</>",
-          "foreground": "#c4ccda",
+          "template": "<#4589ff>❯</><#78a9ff>❯</>",
+          "foreground": "#f2f4f8",
           "type": "text",
           "style": "plain"
         },
@@ -20,7 +20,7 @@
             "style": "agnoster_short"
           },
           "template": " {{ .Path }} ",
-          "foreground": "#7090a8",
+          "foreground": "#c1c7cd",
           "type": "path",
           "style": "plain"
         },
@@ -28,8 +28,8 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": "<#6b9a96>❯</>",
-          "foreground": "#c4ccda",
+          "template": "<#78a9ff>❯</>",
+          "foreground": "#f2f4f8",
           "type": "text",
           "style": "plain"
         },
@@ -40,8 +40,8 @@
             "fetch_status": false,
             "fetch_upstream_icon": true
           },
-          "template": "<#7090a8>(</>{{ .HEAD }}<#7090a8>)</>",
-          "foreground": "#6b9a96",
+          "template": "<#33b1ff>(</>{{ .HEAD }}<#33b1ff>)</>",
+          "foreground": "#878d96",
           "type": "git",
           "style": "plain"
         },
@@ -49,8 +49,8 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": "<#6b9a96>❯</>",
-          "foreground": "#c4ccda",
+          "template": "<#78a9ff>❯</>",
+          "foreground": "#f2f4f8",
           "type": "text",
           "style": "plain"
         }
@@ -65,7 +65,7 @@
             "time_format": "15:04"
           },
           "template": " {{ .CurrentDate | date .Format }} ",
-          "foreground": "#6b9a96",
+          "foreground": "#878d96",
           "type": "time",
           "style": "plain"
         }

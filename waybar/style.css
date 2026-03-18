@@ -4,9 +4,9 @@
   transition: background-color 0.3s ease-out;
 }
 window#waybar {
-  background: rgba(30, 30, 46, 0.9);
+  background: rgba(22, 22, 22, 0.85);
   border-radius: 5px;
-  color: #c4ccda;
+  color: #f2f4f8;
 }
 
 .modules-left,
@@ -60,7 +60,7 @@ window#waybar {
 #power-profiles-daemon:hover,
 #language:hover,
 #mpd:hover {
-  background: rgba(49, 50, 68, 0.9);
+  background: rgba(40, 40, 40, 0.85);
 }
 
 #workspaces {
@@ -71,26 +71,26 @@ window#waybar {
   background: transparent;
   font-weight: 600;
   font-size: 9px;
-  color: #c4ccda;
+  color: #878d96;
 }
 
 
 #workspaces button.active {
   background-image: linear-gradient(
     45deg,
-    rgba(82, 122, 99, 0.93),
-    rgba(107, 154, 150, 0.93),
-    rgba(112, 144, 168, 0.93)
+    rgba(120, 169, 255, 0.85),
+    rgba(51, 177, 255, 0.85),
+    rgba(190, 149, 255, 0.85)
   );
-  color: #d4dce8;
+  color: #f2f4f8;
 }
 
 #workspaces button:not(.active):not(.empty) {
-  color: #6b9a96;
+  color: #78a9ff;
 }
 
 #workspaces button:hover {
-  background: #313244;
-  color: #d4dce8;
+  background: #282828;
+  color: #f2f4f8;
   box-shadow: none;
 }

@@ -2,7 +2,7 @@
 padding = { x = 8, y = 2}
 dynamic_padding = true
 decorations = "none"
-opacity = 0.90
+opacity = 0.85
 
 [font]
 size = 13.0
@@ -20,25 +20,25 @@ family = "JetBrains Mono Nerd Font"
 style = "Italic"
 
 [colors.primary]
-background = "#1e1e2e"
-foreground = "#c4ccda"
+background = "#161616"
+foreground = "#f2f4f8"
 
 [colors.normal]
-black   = "#313244"
-red     = "#a06070"
-green   = "#527a63"
-yellow  = "#9a8a6a"
-blue    = "#7090a8"
-magenta = "#8a8ab0"
-cyan    = "#6b9a96"
-white   = "#c4ccda"
+black   = "#282828"
+red     = "#fa4d56"
+green   = "#42be65"
+yellow  = "#ffe97b"
+blue    = "#78a9ff"
+magenta = "#be95ff"
+cyan    = "#33b1ff"
+white   = "#dde1e7"
 
 [colors.bright]
-black   = "#585b70"
-red     = "#b07080"
-green   = "#628a73"
-yellow  = "#aa9a7a"
-blue    = "#8090b8"
-magenta = "#9a9ac0"
-cyan    = "#7baaaa"
-white   = "#d4dce8"
+black   = "#525252"
+red     = "#ff8389"
+green   = "#57d679"
+yellow  = "#ffd44c"
+blue    = "#a6c8ff"
+magenta = "#d4bbff"
+cyan    = "#82cfff"
+white   = "#f2f4f8"
