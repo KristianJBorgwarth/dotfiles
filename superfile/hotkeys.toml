@@ -16,7 +16,7 @@
 #-- Basic Actions
 confirm = ['enter', 'right', 'l']
 cd_quit = ['Q', '']
-quit = ['q']
+quit = ['q', 'ctrl+c']
 
 #-- Navigation
 list_down = ['down', 'j']
@@ -76,7 +76,7 @@ toggle_footer = ['F', '']
 # Note: These hotkeys can override all hotkeys.
 
 confirm_typing = ['enter', '']
-cancel_typing = ['ctrl+c', 'esc']
+cancel_typing = ['esc']
 
 ###############################################################################
 #                            Mode-Specific Hotkeys                            #
