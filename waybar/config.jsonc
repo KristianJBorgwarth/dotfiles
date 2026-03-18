@@ -1,17 +1,26 @@
 {
-  "layer": "top", 
-  "position": "top", 
+  "layer": "top",
+  "position": "top",
+  "height": 40,
+  "spacing": 4,
   "margin-top": 3,
-  "margin-left": 5,
-  "margin-right": 5,
+  "margin-left": 8,
+  "margin-right": 8,
   "output": "DP-2",
   "modules-left": ["custom/arch", "hyprland/workspaces", "hyprland/window"],
   "modules-center": ["clock"],
   "modules-right": [
+    "temperature",
+    "cpu",
+    "memory",
     "pulseaudio",
     "network",
-    "cpu",
-    "memory"
+    "tray",
+    "custom/power"
   ],
+  "custom/arch": {
+    "format": "",
+    "tooltip": false
+  },
   "include": ["~/.config/waybar/modules.json"]
 }

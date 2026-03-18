@@ -4,50 +4,79 @@
     "all-outputs": true,
     "warp-on-scroll": false,
     "format": "{name}",
-    "format-icons": {
-      "urgent": "",
-      "active": "",
-      "default": ""
-    },
     "persistent-workspaces": {
       "*": [1, 2, 3, 4, 5, 6, 7, 8, 9]
     }
   },
+  "hyprland/window": {
+    "max-length": 36,
+    "separate-outputs": true,
+    "rewrite": {
+      "(.*)Mozilla Firefox(.*)": "󰈹 Firefox",
+      "(.*)Brave(.*)": "󰖟 Brave",
+      "(.*)Alacritty(.*)": " Alacritty",
+      "(.*)nvim(.*)": " Neovim",
+      "(.*)VSCode(.*)": "󰨞 VSCode",
+      "(.*)Code(.*)": "󰨞 VSCode",
+      "(.*)Spotify(.*)": "󰓇 Spotify",
+      "(.*)Discord(.*)": "󰙯 Discord",
+      "(.*)Thunar(.*)": "󰉋 Files",
+      "(.*)Steam(.*)": "󰓓 Steam",
+      "(.*)superfile(.*)": "󰉋 Superfile",
+      "": ""
+    }
+  },
   "pulseaudio": {
-    "format": "{icon}  {volume}%",
-    "format-bluetooth": "{icon} {volume}%  {format_source}",
-    "format-bluetooth-muted": " {icon} {format_source}",
-    "format-muted": " {format_source}",
-    "format-source": " {volume}%",
-    "format-source-muted": "",
+    "format": "{icon} {volume}%",
+    "format-muted": "󰝟 muted",
     "format-icons": {
-      "headphone": "",
-      "headset": "",
-      "phone": "",
-      "portable": "",
-      "default": ["", "", ""]
+      "headphone": "󰋋",
+      "headset": "󰋎",
+      "default": ["󰕿", "󰖀", "󰕾"]
     },
-    "on-click": "pavucontrol"
+    "tooltip-format": "{desc} — {volume}%",
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-click-right": "pavucontrol",
+    "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +2%",
+    "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -2%"
   },
   "network": {
-    "format-wifi": "  {signalStrength}%",
-    "format-ethernet": "{ipaddr}/{cidr} ",
-    "tooltip-format": "{ifname} via {gwaddr} ",
-    "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "Disconnected ⚠",
+    "format-wifi": "󰤨 {signalStrength}%",
+    "format-ethernet": "󰈀 {ipaddr}",
+    "format-linked": "󰈀 No IP",
+    "format-disconnected": "󰤭 offline",
+    "tooltip-format": "{ifname} via {gwaddr}\n{essid}",
     "on-click": "sh ~/.config/rofi/scripts/rofi-wifi-menu.sh"
   },
   "cpu": {
-    "format": "  {usage}%",
-    "tooltip": true
+    "format": "󰻠 {usage}%",
+    "tooltip": true,
+    "interval": 2
   },
   "memory": {
-    "format": "   {}%",
+    "format": "󰍛 {percentage}%",
+    "tooltip-format": "{used:0.1f}G / {total:0.1f}G",
+    "interval": 5
+  },
+  "temperature": {
+    "thermal-zone": 0,
+    "critical-threshold": 85,
+    "format": "󰔏 {temperatureC}°",
+    "format-critical": "󰸁 {temperatureC}°",
     "tooltip": true
   },
+  "tray": {
+    "spacing": 8,
+    "icon-size": 14
+  },
   "clock": {
-    "format": "{:%H:%M} ",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format-alt": "{:%Y-%m-%d}"
+    "format": "󰅐 {:%H:%M}",
+    "format-alt": "󰅐 {:%a %d %b}",
+    "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+  "custom/power": {
+    "format": "⏻",
+    "tooltip": false,
+    "on-click": "bash ~/.config/waybar/scripts/power-menu.sh"
   }
 }
