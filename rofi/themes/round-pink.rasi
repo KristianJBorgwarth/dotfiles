@@ -1,15 +1,15 @@
-/* NORD THEME FOR ROFI */
+/* MUTED PINE / DESATURATED MOCHA THEME FOR ROFI */
 * {
-    bg0:    #2e3440F2;
-    bg1:    #3b4252;
-    bg2:    #434c5e80;
-    bg3:    #88c0d0F2;
+    bg0:    #1e1e2eF2;
+    bg1:    #313244;
+    bg2:    #45475a80;
+    bg3:    #527a63F2;
 
-    fg0:    #d8dee9;
-    fg1:    #eceff4;
-    fg2:    #e5e9f0;
-    fg3:    #4c566a;
-    fg4:    #81a1c1F2;
+    fg0:    #c4ccda;
+    fg1:    #d4dce8;
+    fg2:    #a8b0be;
+    fg3:    #6c7086;
+    fg4:    #6b9a96F2;
 
     accent-color: @bg3;
 
