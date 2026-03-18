@@ -1,16 +1,15 @@
-/* ROUNDED THEME FOR ROFI */
-/* Author: Newman Sanchez (https://github.com/newmanls) */
+/* NORD THEME FOR ROFI */
 * {
-    bg0:    #09090dF2;
-    bg1:    #11111b;
-    bg2:    #1a1b2680;
-    bg3:    #9b5cffF2;
+    bg0:    #2e3440F2;
+    bg1:    #3b4252;
+    bg2:    #434c5e80;
+    bg3:    #88c0d0F2;
 
-    fg0:    #c0caf5;
-    fg1:    #ffffff;
-    fg2:    #a9b1d6;
-    fg3:    #565f89;
-    fg4:    #ff4fd8F2; 
+    fg0:    #d8dee9;
+    fg1:    #eceff4;
+    fg2:    #e5e9f0;
+    fg3:    #4c566a;
+    fg4:    #81a1c1F2;
 
     accent-color: @bg3;
 
