@@ -6,7 +6,6 @@
   "margin-top": 3,
   "margin-left": 8,
   "margin-right": 8,
-  "output": "DP-2",
   "modules-left": ["custom/arch", "hyprland/workspaces", "hyprland/window"],
   "modules-center": ["clock"],
   "modules-right": [
@@ -15,6 +14,7 @@
     "memory",
     "pulseaudio",
     "network",
+    "battery",
     "tray",
     "custom/power"
   ],

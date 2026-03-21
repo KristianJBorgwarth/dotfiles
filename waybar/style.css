@@ -85,7 +85,8 @@ window#waybar {
 #network,
 #cpu,
 #memory,
-#temperature {
+#temperature,
+#battery {
   padding: 0 11px;
   color: #878d96;
 }
@@ -94,7 +95,8 @@ window#waybar {
 #network:hover,
 #cpu:hover,
 #memory:hover,
-#temperature:hover {
+#temperature:hover,
+#battery:hover {
   color: #c1c7cd;
 }
 
@@ -103,6 +105,19 @@ window#waybar {
 }
 
 #temperature.critical {
+  color: #fa4d56;
+}
+
+#battery.charging,
+#battery.plugged {
+  color: #42be65;
+}
+
+#battery.warning:not(.charging) {
+  color: #f1c21b;
+}
+
+#battery.critical:not(.charging) {
   color: #fa4d56;
 }
 
