@@ -1,0 +1,35 @@
+# Alacritty-matching theme for Zathura — transparent background
+# Background: #161616 @ 0.85 opacity, matching alacritty base.toml
+
+set default-bg                  "#161616"
+set default-fg                  "#f2f4f8"
+
+set statusbar-bg                "#282828"
+set statusbar-fg                "#f2f4f8"
+
+set inputbar-bg                 "#282828"
+set inputbar-fg                 "#f2f4f8"
+
+set notification-bg             "#282828"
+set notification-fg             "#f2f4f8"
+
+set notification-error-bg       "#282828"
+set notification-error-fg       "#fa4d56"
+
+set notification-warning-bg     "#282828"
+set notification-warning-fg     "#ffe97b"
+
+set highlight-color             "rgba(120,169,255,0.4)"
+set highlight-active-color      "rgba(51,177,255,0.5)"
+
+set completion-bg               "#282828"
+set completion-fg               "#dde1e7"
+
+set completion-highlight-fg     "#f2f4f8"
+set completion-highlight-bg     "#525252"
+
+set recolor-lightcolor          "#161616"
+set recolor-darkcolor           "#f2f4f8"
+
+set recolor                     "true"
+set recolor-keephue             "false"
