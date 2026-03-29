@@ -33,3 +33,5 @@ set recolor-darkcolor           "#f2f4f8"
 
 set recolor                     "true"
 set recolor-keephue             "false"
+
+set selection-clipboard         clipboard
