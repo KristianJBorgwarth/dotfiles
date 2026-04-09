@@ -60,4 +60,5 @@ alias zhp='zsh -i -c "PROFPATH=1 zsh -i -c exit"'
 # Print profiling report only when enabled 
 [[ -n $PROFPATH ]] && zprof
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/go/bin:$PATH"
+export GOPATH="$HOME/.local/go"
+export PATH="$GOPATH/bin:$PATH"
